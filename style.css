@@ -1238,16 +1238,21 @@ a {
 .site-header .logo {
     display: flex;
     align-items: center;
-    width: auto;
-    height: 50px;
+    width: 280px;
+    height: 75px;
     position: relative;
     z-index: 1001;
+    overflow: hidden;
 }
 
 .site-header .logo img {
-    height: 100%;
+    height: 240px;
     width: auto;
     display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .footer-logo {
@@ -1384,9 +1389,16 @@ nav {
     
     /* Header & Logo */
     .site-header { padding: 10px 0 !important; }
-    .site-header .logo, .footer-logo { width: 150px !important; height: 40px !important; }
-
-    
+    .site-header .logo, .footer-logo { width: 220px !important; height: 60px !important; overflow: hidden !important; position: relative !important; }
+    .site-header .logo img, .footer-logo img { 
+        height: 200px !important; 
+        position: absolute !important;
+        top: 50% !important;
+        left: 50% !important;
+        transform: translate(-50%, -50%) !important;
+        width: auto !important;
+        max-width: none !important;
+    } 
     .header-inner { justify-content: space-between !important; }
     .menu-toggle { display: block !important; margin-left: auto !important; font-size: 1.8rem !important; }
 
