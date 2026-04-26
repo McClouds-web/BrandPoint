@@ -27,11 +27,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-     else {
-                mobileMenuBtn.innerHTML = '&#9776;'; // Hamburger
-            }
-        });
-    }
+
 
     // Mobile Dropdown Accordion
     const dropdownTrigger = document.querySelector('.dropdown-trigger');
