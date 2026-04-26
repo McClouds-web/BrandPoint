@@ -1238,15 +1238,15 @@ a {
 .site-header .logo {
     display: flex;
     align-items: center;
-    width: 280px;
-    height: 75px;
+    width: 240px;
+    height: 65px;
     position: relative;
     z-index: 1001;
     overflow: hidden;
 }
 
 .site-header .logo img {
-    height: 240px;
+    height: 200px;
     width: auto;
     display: block;
     position: absolute;
@@ -1389,9 +1389,9 @@ nav {
     
     /* Header & Logo */
     .site-header { padding: 10px 0 !important; }
-    .site-header .logo, .footer-logo { width: 220px !important; height: 60px !important; overflow: hidden !important; position: relative !important; }
+    .site-header .logo, .footer-logo { width: 180px !important; height: 50px !important; overflow: hidden !important; position: relative !important; }
     .site-header .logo img, .footer-logo img { 
-        height: 200px !important; 
+        height: 160px !important; 
         position: absolute !important;
         top: 50% !important;
         left: 50% !important;
